@@ -36,16 +36,16 @@ For RSPEC files:
    
    Ex:
    
-      it “should login to Files as a regular user (TestRail: C27)” do
+      it “should login to Server as a regular user (TestRail: C27)” do
       => This would mark TestRail cases number 27
       
-      it “should login to Files as a regular user (TestRail: C11, C12 )” do
+      it “should logout of server (TestRail: C11, C12 )” do
       => This would mark two test cases, number 11 and 12, at the same time
 
 For SquishReport (Not sure how this is formatted - please edit):
    Tag all verification name with the correct test case
    Ex (results XML should be):
-      <verification line="114" type="" name=“Transfer (TestRail: C76, C92) " file="C:/qatools/scp/suite_connections/tst_clone/test.rb">
+      <verification line="114" type="" name=“Transfer (TestRail: C76, C92) " file="C:/ancd/aaa/suite_connections/tst_clone/test.rb">
             <result type="PASS" time="2015-07-06T11:20:58-07:00">
                 <description>Comparison</description>
             </result>
@@ -60,9 +60,9 @@ NOTE: You can associate multiple Test Cases to a single automated test if needed
     -r or -t *, name of test run (-r) or test plan (-t) (required parameter) 
     -m, milestone name (can be used when creating a test run)
     -s, test suite name (* required when creating a test run)
-    -u, user (e.g. ibarra@asperasoft.com)
+    -u, user (e.g. ibarra.alfonso@gmail.com)
     -pw, password or token (recommended)
-    -url, URL of TestRail (e.g. https://test.aspera.us/testrail)
+    -url, URL of TestRail (e.g. https://test.mycompany.com/testrail)
     -d, debug mode (set to false to suppresses most messages)
     -x or -f *, path (-x, Directory) or specific file (-f) for results to parse 
     -com, comment to put on each test

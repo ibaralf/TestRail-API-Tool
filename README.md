@@ -44,12 +44,14 @@ For RSPEC files:
 
 For SquishReport (Not sure how this is formatted - please edit):
    Tag all verification name with the correct test case
+   
    Ex (results XML should be):
+   
       <verification line="114" type="" name=“Transfer (TestRail: C76, C92) " file="C:/ancd/aaa/suite_connections/tst_clone/test.rb">
-            <result type="PASS" time="2015-07-06T11:20:58-07:00">
-                <description>Comparison</description>
-            </result>
-        </verification>
+         <result type="PASS" time="2015-07-06T11:20:58-07:00">
+             <description>Comparison</description>
+         </result>
+      </verification>
 
 NOTE: You can associate multiple Test Cases to a single automated test if needed (TestRail C111, C222, …)
 

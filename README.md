@@ -2,6 +2,8 @@
 
 TestRail (http://www.gurock.com/testrail/) is one of the best test case management software available. It has available APIs which can be used to mark your automated test results.
 
+![Instructions](/workflow.jpg)
+
 This is a command line tool that parses through all your RSPEC XML results file or Squish results file and marks all the test cases (Passed, Failed, ...) via API calls. This is a very useful tool to mark your test cases after running your automation tests using RSpec or Squish tests. 
 
 To Use:

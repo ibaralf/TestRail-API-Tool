@@ -1,10 +1,10 @@
-# TestRail-API-Tool
+# TestRail_gem 
 
-TestRail (http://www.gurock.com/testrail/) is one of the best test case management software available. It has available APIs which can be used to mark your automated test results.
+TestRail (http://www.gurock.com/testrail/) is one of the best test case management software available. It has available APIs which can be used to mark your automated test results. If you label your RSPEC tests with TestRail testcase numbers, then you can automatically mark the test results via API calls.
 
 ![Instructions](/workflow.jpg)
 
-This is a command line tool that parses through all your RSPEC XML results file or Squish results file and marks all the test cases (Passed, Failed, ...) via API calls. This is a very useful tool to mark your test cases after running your automation tests using RSpec or Squish tests. 
+This gem installs a command line tool that parses through all your RSPEC XML results file or Squish results file and marks all the test cases (Passed, Failed, ...) via API calls. This is a very useful tool to mark your test cases after running your automation tests using RSpec or Squish tests. 
 
 To Use:
 

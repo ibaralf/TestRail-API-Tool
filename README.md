@@ -1,4 +1,5 @@
 # Rspec to TestRail Gem
+(CURRENTLY BEING CONVERTED TO A RUBY GEM)
 
 TestRail (http://www.gurock.com/testrail/) is one of the best test case management software available. It has available APIs which can be used to mark your automated test results. If you label your RSPEC tests with TestRail testcase numbers, then you can automatically mark the test results via API calls.
 
